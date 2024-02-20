@@ -25,7 +25,7 @@
 	</Step>
 	<Step>
 		<svelte:fragment slot="header">What do you do</svelte:fragment>
-		<h2 class="h4">I am a front and developer</h2>
+		<h2 class="h4">I am a frontend developer</h2>
 	</Step>
     <Step>
 		<svelte:fragment slot="header">What are your advantages?</svelte:fragment>
