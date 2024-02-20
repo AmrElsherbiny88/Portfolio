@@ -1,5 +1,5 @@
 import { join } from 'path'
-
+import { myCustomTheme } from './my-custom-theme'
 import typography from '@tailwindcss/typography';
 import { skeleton } from '@skeletonlabs/tw-plugin'
 
@@ -10,16 +10,12 @@ export default {
 		extend: {},
 	},
 	plugins: [
-		typography,
 		skeleton({
 			themes: {
-				preset: [
-					{
-						name: 'crimson',
-						enhancements: true,
-					},
-				],
-			},
-		}),
-	],
+				custom: [
+					myCustomTheme
+				]
+			}
+		})
+	]
 };
