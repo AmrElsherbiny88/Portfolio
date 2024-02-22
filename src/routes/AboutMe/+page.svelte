@@ -1,8 +1,5 @@
 <script>
   import Contact from "../../lib/contact.svelte";
-  import {goto} from "$app/navigation";
-  import MyImage from "$lib/assets/amr.jpg";
-  import {Avatar, CodeBlock} from "@skeletonlabs/skeleton";
   import {Stepper, Step} from "@skeletonlabs/skeleton";
   let classdiv = "hidden";
   function onCompleteHandler(e) {
