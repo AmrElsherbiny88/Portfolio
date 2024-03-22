@@ -3,7 +3,7 @@
   import FaCss3 from "svelte-icons/fa/FaCss3.svelte";
 </script>
 
-<h1 class="title h1 text-center mt-5 uppercase">My Skills</h1>
+<h1 class="titlee h1 text-center mt-5 uppercase">My Skills</h1>
 
 <div
   class="grid xl:grid-cols-3 text-center justify-items-center mt-5 grid-cols-2"

@@ -7,7 +7,7 @@
   }
 </script>
 
-<h1 class="title h1 text-center mt-5 uppercase">About Me</h1>
+<h1 class="titlee h1 text-center mt-5 uppercase">About Me</h1>
 
 <Stepper on:complete={onCompleteHandler} class="text-center p-5 mt-5">
   <Step>
