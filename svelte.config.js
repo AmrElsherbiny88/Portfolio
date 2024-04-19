@@ -3,19 +3,18 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
+  preprocess: [vitePreprocess()],
 
-	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
-	// for more information about preprocessors
-	preprocess: [vitePreprocess()],
-	
-	kit: {
-		files: {
-			// other file options
-			static: {
-			  '**/robots.txt': 'robots.txt'
-			}
-		  },
-		adapter: adapter()
-	}
+  kit: {
+    adapter: adapter(),
+
+    // other kit options
+    files: {
+      static: {
+        '**/robots.txt': 'robots.txt'
+      }
+    }
+  }
 };
+
 export default config;
