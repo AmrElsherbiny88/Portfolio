@@ -13,7 +13,7 @@
   import summarize from "$lib/assets/summarize.png";
   import JokesApp from "$lib/assets/JokesApp.png";
 </script>
-
+<meta name="robots" content="index , follow">
 <h1 class="titlee h1 text-center mt-5 uppercase">My Projects</h1>
 
 <section>

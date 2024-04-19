@@ -1,7 +1,7 @@
 <script>
   import Contact from "../../lib/contact.svelte";
 </script>
-
+<meta name="robots" content="index , follow">
 <div class="uppercase text-center p-5 mt-20">
   <h1 class=" h1">
     Welcome, you are now part of the greatness once you enter this site

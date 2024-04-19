@@ -2,7 +2,7 @@
   import {ProgressRadial} from "@skeletonlabs/skeleton";
   import FaCss3 from "svelte-icons/fa/FaCss3.svelte";
 </script>
-
+<meta name="robots" content="index , follow">
 <h1 class="titlee h1 text-center mt-5 uppercase">My Skills</h1>
 
 <div
