@@ -1,8 +1,11 @@
 <script>
+  import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
+
+  injectSpeedInsights();
   import Navbar from "./../lib/Navbar.svelte";
   import "../app.postcss";
 </script>
-<meta name="robots" content="index , follow">
+
 
 <Navbar />
 

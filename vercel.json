@@ -1,0 +1,29 @@
+{
+    "headers": [
+      {
+        "source": "/",
+        "headers": [
+          { "key": "X-Robots-Tag", "value": "index, follow" }
+        ]
+      },
+      {
+        "source": "/AboutMe",
+        "headers": [
+          { "key": "X-Robots-Tag", "value": "index, follow" }
+        ]
+      },
+      {
+        "source": "/Projects",
+        "headers": [
+          { "key": "X-Robots-Tag", "value": "index, follow" }
+        ]
+      },
+      {
+        "source": "/Skills",
+        "headers": [
+          { "key": "X-Robots-Tag", "value": "index, follow" }
+        ]
+      }
+    ]
+  } 
+  
