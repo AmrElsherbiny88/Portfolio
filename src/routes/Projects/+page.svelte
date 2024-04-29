@@ -127,9 +127,9 @@
         <h3 class="title">Full Pomodoro WebApp</h3>
         <p class="p tech">HTML , Css , JS</p>
         <h6 class="discription">
-          Pomodoro website with alarm and adjustable settings
+          Pomodoro website with alarm and adjustable settings and you can install it and works offline
         </h6>
-        <a href="https://pomodoro-amr-elsherbiny88.vercel.app/"
+        <a href="https://pomodoro-amr-elsherbinys-projects.vercel.app/"
           ><button class="proj-btn">go to the project</button></a
         >
       </div>
