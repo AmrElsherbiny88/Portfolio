@@ -17,6 +17,12 @@
   <ProgressRadial class="mt-5" stroke={60} meter="stroke-yellow-500" value="100"
     >Javascript
   </ProgressRadial>
+  <ProgressRadial class="mt-5" stroke={60} meter="stroke-purple-500" value="100"
+  >PHP
+</ProgressRadial>
+<ProgressRadial class="mt-5" stroke={60} meter="stroke-orange-700" value="100"
+>Laravel
+</ProgressRadial>
   <ProgressRadial class="mt-5" stroke={60} meter="stroke-blue-700" value="100"
     >React js
   </ProgressRadial>
@@ -29,6 +35,9 @@
   <ProgressRadial class="mt-5" stroke={60} meter="stroke-orange-700" value="100"
     >SvelteKit
   </ProgressRadial>
+  <ProgressRadial class="mt-5" stroke={60} meter="stroke-blue-700" value="100"
+  >WordPress
+</ProgressRadial>
   <ProgressRadial class="mt-5" stroke={60} meter="stroke-slate-400" value="100"
     >Skeleton</ProgressRadial
   >
